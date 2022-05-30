@@ -1,0 +1,22 @@
+#4.  Function to get n consecutive losses(0) or wins(1) with average
+def getConsecutiveLosses_Wins(n,type):
+  pts=0
+  times=n-1
+  count=0
+  for i in data: 
+    t=1
+    last5=i["Last5"]
+    n=times
+    while t <len(last5):
+      if last5[t]==type and type==last5[t-1]:
+        n=n-1
+        if n==0: 
+          pts=pts+i["Pts"]
+          count=count+1
+          print("Team Name:",i["TeamName"])
+          break
+      else:
+        n=times
+      t=t+1
+  print("Average :",pts/count)
+getConsecutiveLosses_Wins(2,0)
