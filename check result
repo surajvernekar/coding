@@ -1,0 +1,17 @@
+#3.  Function to get n consecutive losses(0) or wins(1) 
+def getConsecutiveLosses_Wins(n,type):
+  times=n-1
+  for i in data: 
+    t=1
+    last5=i["Last5"]
+    n=times
+    while t <len(last5):
+      if last5[t]==type and type==last5[t-1]:
+        n=n-1
+        if n==0: 
+          print("Team Name:",i["TeamName"])
+          break
+      else:
+        n=times
+      t=t+1
+getConsecutiveLosses_Wins(2,1)
