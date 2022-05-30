@@ -1,0 +1,54 @@
+# Here win and losses are taken as number, where 1 represents win and 0 represents loss
+data=[{
+      "TeamName":"GT",
+         "Pts":20,
+         "Last5":[1,1,0,0,1] 
+      },
+      {
+      "TeamName":"LSG",
+      "Pts":18,
+      "Last5":[1,0,0,1,1] 
+      },
+      {
+      "TeamName":"RR",
+         "Pts":16,
+         "Last5":[1,0,1,0,0] 
+      },
+      {
+      "TeamName":"DC",
+      "Pts":14,
+      "Last5":[1,1,0,1,0] 
+      },
+      {
+      "TeamName":"RCB",
+         "Pts":14,
+         "Last5":[0,1,1,0,0] 
+      },
+      {
+      "TeamName":"KKR",
+      "Pts":12,
+      "Last5":[0,1,1,0,1] 
+      },
+      {
+      "TeamName":"PBKS",
+         "Pts":12,
+         "Last5":[0,1,0,1,0] 
+      },
+      {
+      "TeamName":"SRH",
+      "Pts":12,
+      "Last5":[1,0,0,0,0] 
+      },
+      {
+      "TeamName":"CSK",
+      "Pts":8,
+      "Last5":[0,0,1,0,1] 
+      },
+      {
+      "TeamName":"MI",
+      "Pts":6,
+      "Last5":[0,1,0,1,1] 
+      }
+      
+]
+print(data)
