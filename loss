@@ -1,0 +1,11 @@
+# 2. Function to get two consecutive losses 
+def getConsecutiveLosses():
+  for i in data: 
+    t=1
+    last5=i["Last5"]
+    while t <len(last5):
+      if last5[t]==0 and 0==last5[t-1]:
+        print("Team Name:",i["TeamName"])
+        break
+      t=t+1
+getConsecutiveLosses()
